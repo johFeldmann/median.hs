@@ -1,0 +1,3 @@
+
+#define PICTURE_WIDTH 100
+#define PICTURE_HEIGHT 100
