@@ -52,6 +52,16 @@
 			<location>Y:/Uni/FPGAHS/git_median_hs/Median/Header/config.h</location>
 		</link>
 		<link>
+			<name>source/top.cpp</name>
+			<type>1</type>
+			<location>Y:/Uni/FPGAHS/git_median_hs/Median/Source/top.cpp</location>
+		</link>
+		<link>
+			<name>source/top.h</name>
+			<type>1</type>
+			<location>Y:/Uni/FPGAHS/git_median_hs/Median/Header/top.h</location>
+		</link>
+		<link>
 			<name>testbench/EasyBMP.cpp</name>
 			<type>1</type>
 			<location>Y:/Uni/FPGAHS/git_median_hs/Median/EasyBMP/EasyBMP.cpp</location>
@@ -77,6 +87,11 @@
 			<location>Y:/Uni/FPGAHS/git_median_hs/Median/EasyBMP/EasyBMP_VariousBMPutilities.h</location>
 		</link>
 		<link>
+			<name>testbench/config.h</name>
+			<type>1</type>
+			<location>Y:/Uni/FPGAHS/git_median_hs/Median/Header/config.h</location>
+		</link>
+		<link>
 			<name>testbench/input_image.bmp</name>
 			<type>1</type>
 			<location>Y:/Uni/FPGAHS/git_median_hs/Median/Images/input_image.bmp</location>
@@ -90,6 +105,11 @@
 			<name>testbench/testbench.cpp</name>
 			<type>1</type>
 			<location>Y:/Uni/FPGAHS/git_median_hs/Median/Testbench/testbench.cpp</location>
+		</link>
+		<link>
+			<name>testbench/top.h</name>
+			<type>1</type>
+			<location>Y:/Uni/FPGAHS/git_median_hs/Median/Header/top.h</location>
 		</link>
 		<link>
 			<name>Solution1/constraints/.xml.directive</name>

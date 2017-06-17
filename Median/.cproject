@@ -30,7 +30,6 @@
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2017.1/win64/tools/auto_cc/include"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2017.1/include"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2017.1/include/etc"/>
-									<listOptionValue builtIn="false" value="Y:/Uni/FPGAHS/git_median_hs"/>
 								</option>
 								<option id="gnu.cpp.compiler.option.preprocessor.def.351426882" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="AESL_TB"/>
@@ -48,7 +47,6 @@
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2017.1/win64/tools/auto_cc/include"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2017.1/include"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2017.1/include/etc"/>
-									<listOptionValue builtIn="false" value="Y:/Uni/FPGAHS/git_median_hs"/>
 								</option>
 								<option id="gnu.c.compiler.option.preprocessor.def.symbols.192870141" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="AESL_TB"/>
@@ -81,7 +79,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="Solution1|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="Solution1|source/config.h|source/top.h|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -116,7 +114,6 @@
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2017.1/win64/tools/auto_cc/include"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2017.1/include"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2017.1/include/etc"/>
-									<listOptionValue builtIn="false" value="Y:/Uni/FPGAHS/git_median_hs"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.41991643" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
@@ -129,7 +126,6 @@
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2017.1/win64/tools/auto_cc/include"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2017.1/include"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2017.1/include/etc"/>
-									<listOptionValue builtIn="false" value="Y:/Uni/FPGAHS/git_median_hs"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1057550510" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
@@ -157,7 +153,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="Solution1|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="Solution1|source/config.h|source/top.h|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
