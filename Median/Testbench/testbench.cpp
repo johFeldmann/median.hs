@@ -15,7 +15,7 @@ int main()
 
 	// Load input image
 	BMP image;
-	if(!image.ReadFromFile("input_image.bmp"))
+	if(!image.ReadFromFile("../../../Images/input_image.bmp"))
 	{
 		printf("Error reading input image.\n");
 		return 1;
@@ -32,7 +32,7 @@ int main()
 	}
 	// Load reference image
 	BMP image_ref;
-	if(!image_ref.ReadFromFile("output_image_reference.bmp"))
+	if(!image_ref.ReadFromFile("../../../Images/output_image_reference.bmp"))
 	{
 		printf("Error reading reference picture.\n");
 		return 1;
@@ -55,11 +55,14 @@ int main()
 			if(color != image_ref.GetPixel(j,i).Red)
 			{
 				// Wrong pixel color
-				//printf("Error: Calculated image differs from reference image.\n");
-				//return 1;
+				//printf("Error: Calculated image differs from reference image (%d/%d).\n",i,j);
+				printf("%d\r\n", abs(color-image_ref.GetPixel(j,i).Red));
 			}
-			image_out(j,i)->Red = color.to_uint();
-			if(!empty)
+			else
+			{
+				image_out(j,i)->Red = 0;//color.to_uint();
+			}
+			/*if(!empty)
 			{
 				image_out(j,i)->Green = color.to_uint();
 				image_out(j,i)->Blue = color.to_uint();
@@ -68,11 +71,13 @@ int main()
 			{
 				image_out(j,i)->Green = 0;
 				image_out(j,i)->Blue = 0;
-			}
+			}*/
+			image_out(j,i)->Green = 0;
+			image_out(j,i)->Blue = 0;
 			image_out(j,i)->Alpha = 0;
 		}
 	}
-	image_out.WriteToFile("output.bmp");
+	image_out.WriteToFile("../../../Images/output.bmp");
 
 	// Everything is correct
 	return 0;

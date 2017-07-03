@@ -37,29 +37,14 @@
 			<location>Y:/Uni/FPGAHS/git_median_hs/Median/.apc/.tb</location>
 		</link>
 		<link>
-			<name>.reference/EasyBMP_BMP.h</name>
-			<type>1</type>
-			<location>Y:/Uni/FPGAHS/git_median_hs/Median/EasyBMP/EasyBMP_BMP.h</location>
-		</link>
-		<link>
-			<name>Solution1/constraints</name>
+			<name>solution1/constraints</name>
 			<type>2</type>
-			<location>Y:/Uni/FPGAHS/git_median_hs/Median/Solution1/.tcls</location>
-		</link>
-		<link>
-			<name>source/config.h</name>
-			<type>1</type>
-			<location>Y:/Uni/FPGAHS/git_median_hs/Median/Header/config.h</location>
+			<location>Y:/Uni/FPGAHS/git_median_hs/Median/solution1/.tcls</location>
 		</link>
 		<link>
 			<name>source/top.cpp</name>
 			<type>1</type>
 			<location>Y:/Uni/FPGAHS/git_median_hs/Median/Source/top.cpp</location>
-		</link>
-		<link>
-			<name>source/top.h</name>
-			<type>1</type>
-			<location>Y:/Uni/FPGAHS/git_median_hs/Median/Header/top.h</location>
 		</link>
 		<link>
 			<name>testbench/EasyBMP.cpp</name>
@@ -77,54 +62,24 @@
 			<location>Y:/Uni/FPGAHS/git_median_hs/Median/EasyBMP/EasyBMP_BMP.h</location>
 		</link>
 		<link>
-			<name>testbench/EasyBMP_DataStructures.h</name>
-			<type>1</type>
-			<location>Y:/Uni/FPGAHS/git_median_hs/Median/EasyBMP/EasyBMP_DataStructures.h</location>
-		</link>
-		<link>
-			<name>testbench/EasyBMP_VariousBMPutilities.h</name>
-			<type>1</type>
-			<location>Y:/Uni/FPGAHS/git_median_hs/Median/EasyBMP/EasyBMP_VariousBMPutilities.h</location>
-		</link>
-		<link>
-			<name>testbench/config.h</name>
-			<type>1</type>
-			<location>Y:/Uni/FPGAHS/git_median_hs/Median/Header/config.h</location>
-		</link>
-		<link>
-			<name>testbench/input_image.bmp</name>
-			<type>1</type>
-			<location>Y:/Uni/FPGAHS/git_median_hs/Median/Images/input_image.bmp</location>
-		</link>
-		<link>
-			<name>testbench/output_image_reference.bmp</name>
-			<type>1</type>
-			<location>Y:/Uni/FPGAHS/git_median_hs/Median/Images/output_image_reference.bmp</location>
-		</link>
-		<link>
 			<name>testbench/testbench.cpp</name>
 			<type>1</type>
 			<location>Y:/Uni/FPGAHS/git_median_hs/Median/Testbench/testbench.cpp</location>
 		</link>
 		<link>
-			<name>testbench/top.h</name>
+			<name>solution1/constraints/.xml.directive</name>
 			<type>1</type>
-			<location>Y:/Uni/FPGAHS/git_median_hs/Median/Header/top.h</location>
+			<location>Y:/Uni/FPGAHS/git_median_hs/Median/solution1/solution1.directive</location>
 		</link>
 		<link>
-			<name>Solution1/constraints/.xml.directive</name>
+			<name>solution1/constraints/directives.tcl</name>
 			<type>1</type>
-			<location>Y:/Uni/FPGAHS/git_median_hs/Median/Solution1/Solution1.directive</location>
+			<location>Y:/Uni/FPGAHS/git_median_hs/Median/solution1/directives.tcl</location>
 		</link>
 		<link>
-			<name>Solution1/constraints/directives.tcl</name>
+			<name>solution1/constraints/script.tcl</name>
 			<type>1</type>
-			<location>Y:/Uni/FPGAHS/git_median_hs/Median/Solution1/directives.tcl</location>
-		</link>
-		<link>
-			<name>Solution1/constraints/script.tcl</name>
-			<type>1</type>
-			<location>Y:/Uni/FPGAHS/git_median_hs/Median/Solution1/script.tcl</location>
+			<location>Y:/Uni/FPGAHS/git_median_hs/Median/solution1/script.tcl</location>
 		</link>
 	</linkedResources>
 </projectDescription>

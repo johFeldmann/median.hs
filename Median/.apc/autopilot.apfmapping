@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
   <source>
-    <originFiles name="config.h" path="Y:\Uni\FPGAHS\git_median_hs\Median\Header\config.h"/>
     <originFiles name="top.cpp" path="Y:\Uni\FPGAHS\git_median_hs\Median\Source\top.cpp"/>
-    <originFiles name="top.h" path="Y:\Uni\FPGAHS\git_median_hs\Median\Header\top.h"/>
   </source>
   <testbench>
     <originFiles name="testbench.cpp" path="Y:\Uni\FPGAHS\git_median_hs\Median\Testbench\testbench.cpp"/>
     <originFiles name="EasyBMP.cpp" path="Y:\Uni\FPGAHS\git_median_hs\Median\EasyBMP\EasyBMP.cpp"/>
     <originFiles name="EasyBMP.h" path="Y:\Uni\FPGAHS\git_median_hs\Median\EasyBMP\EasyBMP.h"/>
     <originFiles name="EasyBMP_BMP.h" path="Y:\Uni\FPGAHS\git_median_hs\Median\EasyBMP\EasyBMP_BMP.h"/>
-    <originFiles name="EasyBMP_DataStructures.h" path="Y:\Uni\FPGAHS\git_median_hs\Median\EasyBMP\EasyBMP_DataStructures.h"/>
-    <originFiles name="EasyBMP_VariousBMPutilities.h" path="Y:\Uni\FPGAHS\git_median_hs\Median\EasyBMP\EasyBMP_VariousBMPutilities.h"/>
-    <originFiles name="input_image.bmp" path="Y:\Uni\FPGAHS\git_median_hs\Median\Images\input_image.bmp"/>
-    <originFiles name="output_image_reference.bmp" path="Y:\Uni\FPGAHS\git_median_hs\Median\Images\output_image_reference.bmp"/>
-    <originFiles name="config.h" path="Y:\Uni\FPGAHS\git_median_hs\Median\Header\config.h"/>
-    <originFiles name="top.h" path="Y:\Uni\FPGAHS\git_median_hs\Median\Header\top.h"/>
   </testbench>
 </autopilotfilemapping:AutoPilotFileMapping>

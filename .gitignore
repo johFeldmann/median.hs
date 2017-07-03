@@ -3,3 +3,6 @@ Median/Solution1/Solution1.log
 vivado_hls.log
 Median/.vivado_hls_log_all.xml
 Median/Solution1/.autopilot/
+Median/Images/output.bmp
+Median/solution1/impl/
+Median/solution1/syn/
